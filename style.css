@@ -1,0 +1,70 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-image: url("imagens/papel-parede-site.jpg"); 
+    background-color: #421d3c;
+    background-repeat: no-repeat; /*para a imagem não se repetir várias vezes*/
+    background-position: center center;/*para centralizar a imagem*/
+    background-size: cover; /*para a imagem cobrir todo o site*/
+    background-attachment: fixed;/*para fixar a imagem*/
+}
+main{
+    background-color: #b30d97;/*cor de fundo do bloco*/
+    max-width: 600px; /*tamanho máximo do bloco*/
+    margin:20px auto; /*separação dos blocos e centralização automática*/
+    padding: 15px; /*espaço em cima e nas laterais*/
+    border-radius: 15px;
+}
+main p{
+    color: white; /*cor das letras do parágrafo*/
+}
+main picture.topo > img{
+    /* border:solid red; */
+    width: 100%; /*para a imagem do topo do site ter tamanho máximo*/
+    border-radius: 15px;
+}
+h1{
+    color: white;
+}
+h2{
+    color: #b30d97;
+}
+section{
+    background-color: white;
+    max-width: 600px; /*bloco com largura máxima de 600pixels*/
+    margin:20px auto; /*blocos separados em 20px e centralizados automaticos*/
+    padding: 15px; /*distância nas laterais e em cima dos blocos*/
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.505);/*sombra*/
+}
+picture{
+    /* border: solid blue; */
+    display: block; /*para virar um blobo e a imagem de dentro centralizar corretamente*/
+}
+picture img.circulo{
+    /*border: solid red;*/
+    border-radius: 50%; /*para deixar em formato de círculo*/
+    width: 40%; /*o tamanho da imagem em cícrulo*/
+    display: block;/*para virar um bloco*/
+    margin: auto;/*para centralizar*/
+    border: solid #b30d97 5px;/*para fazer a borda roxa com tamanho de 5px*/
+}
+div.raid > video{
+    width: 100%; /*vídeo com tamanho máximo*/
+    border-radius: 15px;
+}
+p{
+    text-align: justify; /*para os textos ficarem alinhados*/
+    text-indent: 3.0em; /*indentação do parágrafo*/
+    line-height: 1.5em; /*separação de uma linha para outra*/
+}
+/* 
+    == FONTE USADA ==
+    Família Verdana, Geneva, Tahoma, todas sem serifa
+    
+    == CORES USADAS ==
+    rosa escuro: #b30d97
+    rosa claro: #d70fb7
+*/
+
