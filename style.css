@@ -56,7 +56,7 @@ div.raid > video{
 }
 p{
     text-align: justify; /*para os textos ficarem alinhados*/
-    text-indent: 3.0em; /*indentação do parágrafo*/
+    text-indent: 1.5em; /*indentação do parágrafo*/
     line-height: 1.5em; /*separação de uma linha para outra*/
 }
 /* 
